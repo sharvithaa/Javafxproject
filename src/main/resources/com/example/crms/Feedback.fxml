@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: azure;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.crms.HelloController">
+   <children>
+      <AnchorPane prefHeight="59.0" prefWidth="600.0" style="-fx-background-color: aquamarine;">
+         <children>
+            <Label layoutX="252.0" layoutY="12.0" text="FEEDBACK">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label layoutX="55.0" layoutY="127.0" text="Is product is in good quality?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="178.0" text="Is it delivered on time?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="228.0" text="Is product worth to the cost?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="yes1" layoutX="356.0" layoutY="131.0" mnemonicParsing="false" text="Yes">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="no1" layoutX="477.0" layoutY="131.0" mnemonicParsing="false" text="No">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="yes2" layoutX="356.0" layoutY="182.0" mnemonicParsing="false" text="Yes">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="yes3" layoutX="356.0" layoutY="232.0" mnemonicParsing="false" text="Yes">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="no2" layoutX="477.0" layoutY="182.0" mnemonicParsing="false" text="No">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="no3" layoutX="477.0" layoutY="232.0" mnemonicParsing="false" text="No">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <Button fx:id="Endbutton" layoutX="235.0" layoutY="291.0" mnemonicParsing="false" onAction="#EndbuttonOnAction" prefHeight="27.0" prefWidth="141.0" style="-fx-background-color: aquamarine;" text="SUMBIT">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="Closebutton" layoutX="235.0" layoutY="340.0" mnemonicParsing="false" onAction="#ClosebuttonOnAction" prefHeight="27.0" prefWidth="141.0" style="-fx-background-color: aquamarine;" text="CLOSE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="lone" layoutX="154.0" layoutY="78.0" prefHeight="17.0" prefWidth="323.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="ltwo" layoutX="121.0" layoutY="82.0" prefHeight="17.0" prefWidth="369.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+   </children>
+</Pane>
